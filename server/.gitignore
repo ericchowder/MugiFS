@@ -1,0 +1,6 @@
+# Secrets
+.env
+
+# Local Generated
+/node_modules/
+package-lock.json
