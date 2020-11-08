@@ -7,7 +7,7 @@ const {MongoURI} = require('./keys') // imports the exported MongoURI from keys.
 require('./models/user') // doesn't require export
 // App settings
 const app = express()
-const PORT = 5000
+const PORT = process.env.port || 5000
 // idk where this should go
 app.use(express.json()) // for parsing json? for post calls only?
 
